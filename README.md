@@ -5,8 +5,8 @@ cloud-config-server:
 3. start this boot application as "./gradlew bootRun"
 
 ### Basic Info:
-1. To check/modify server port (by default, its 8888), please check @ **src/main/resources/application.yml**
-2. To check/modify the application name, @ **src/main/resources/bootstrap.yml**
+1. To check/modify server port (by default, its 8888), please check @ [src/main/resources/application.yml](src/main/resources/application.properties)
+2. To check/modify the application name, @ [src/main/resources/bootstrap.yml](src/main/resources/bootstrap.yml)
 
 ### Below are Test URLs:
 
