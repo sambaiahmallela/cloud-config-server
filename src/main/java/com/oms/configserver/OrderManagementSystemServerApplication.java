@@ -1,4 +1,4 @@
-package testconfigserver;
+package com.oms.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -10,12 +10,10 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 @EnableAutoConfiguration
 @EnableConfigServer
-public class TestConfigServerApplication{
+public class OrderManagementSystemServerApplication {
 
- public static void main(String[] args) throws Exception {
-
-	 SpringApplication.run(TestConfigServerApplication.class, args);
-    }
-
+	public static void main(String[] args) throws Exception {
+		SpringApplication.run(OrderManagementSystemServerApplication.class, args);
+	}
 
 }
