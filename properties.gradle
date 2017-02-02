@@ -1,9 +1,11 @@
 project.ext {
+
     springBootVersion = '1.3.0.RELEASE'
     springBootStarterHateoasVersion = '1.3.0.RELEASE'
     springCloudConfigServerVersion = '1.0.3.RELEASE'
     springBootStarterTomcatVersion = '1.3.0.RELEASE'
     springBootStarterTestVersion = '1.3.0.RELEASE'
     dependencyManagementPlugin = '0.5.2.RELEASE'
+    
 }
 
